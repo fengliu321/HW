@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int w,a,sumeven,sumodd;
+	sumeven = 0;
+	sumodd = 0;
+	w = 1;
+	cout << "Please enter the list of data separated by space bar \n";
+	while(w<=5){
+		cin >> a;
+		if((a >= -4) && ( a <= 4))
+			if(a%2 == 0)
+				sumeven+=a;
+			else
+				sumodd+=a;
+			w++;
+	}
+	cout << "Sum even is equal to " << sumeven << endl;
+	cout << "Sum odd is equal to " << sumodd << endl;
+	system("pause");
+	return 0;
+}

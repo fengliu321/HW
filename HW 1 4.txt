@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float item1[4] = { 100,175,230,320 };
+	float item2[4] = { -90,135,196,240 };
+	float item3[4] = { 50,-187,313,323 };
+	float item4[4] = { 28,113,-219,316 };
+	float item5[4] = { 110,159,270,-390 };
+	float item6[4] = { -113,-167,246,338 };
+	float item7[4] = { 67,-250,196,-87 };
+	float item8[4] = { 35,102,-160,-225 };
+	float item9[4] = { -83,-339,-516,-218 };
+	float item10[4] = { 74,-185,-236,316 };
+	cout << "Products:" << "   1stQT: " << "2ndQT: " << "3rdQT: " << "4thQT:" << " Total Profit: " << "  Avg Profit:" << "\n" << endl;
+	cout << "watches:      ";
+	cout << item1[0] << "    " << item1[1] << "    " << item1[2] << "    " << item1[3] << "         " << item1[0] + item1[1] + item1[2] + item1[3] << "         " << (item1[0] + item1[1] + item1[2] + item1[3]) / 4 << endl;
+	cout << "Batteries:   ";
+	cout << item2[0] << "     " << item2[1] << "    " << item2[2] << "    " << item2[3] << "         " << item2[0] + item2[1] + item2[2] + item2[3] << "         " << (item2[0] + item2[1] + item2[2] + item2[3]) / 4 << endl;
+	cout << "USBs:         ";
+	cout << item3[0] << "    " << item3[1] << "    " << item3[2] << "    " << item3[3] << "         " << item3[0] + item3[1] + item3[2] + item3[3] << "         " << (item3[0] + item3[1] + item3[2] + item3[3]) / 4 << endl;
+	cout << "Keyboards:    ";
+	cout << item4[0] << "     " << item4[1] << "   " << item4[2] << "    " << item4[3] << "         " << item4[0] + item4[1] + item4[2] + item4[3] << "         " << (item4[0] + item4[1] + item4[2] + item4[3]) / 4 << endl;
+	cout << "Mouses:       ";
+	cout << item5[0] << "    " << item5[1] << "    " << item5[2] << "   " << item5[3] << "         " << item5[0] + item5[1] + item5[2] + item5[3] << "         " << (item5[0] + item5[1] + item5[2] + item5[3]) / 4 << endl;
+	cout << "Monitors:    ";
+	cout << item6[0] << "   " << item6[1] << "    " << item6[2] << "    " << item6[3] << "         " << item6[0] + item6[1] + item6[2] + item6[3] << "         " << (item6[0] + item6[1] + item6[2] + item6[3]) / 4 << endl;
+	cout << "Calculators:  ";
+	cout << item7[0] << "    " << item7[1] << "    " << item7[2] << "   " << item7[3] << "         " << item7[0] + item7[1] + item7[2] + item7[3] << "         " << (item7[0] + item7[1] + item7[2] + item7[3]) / 4 << endl;
+	cout << "Laptops:      ";
+	cout << item8[0] << "     " << item8[1] << "   " << item8[2] << "   " << item8[3] << "        " << item8[0] + item8[1] + item8[2] + item8[3] << "        " << (item8[0] + item8[1] + item8[2] + item8[3]) / 4 << endl;
+	cout << "Tablets:     ";
+	cout << item9[0] << "    " << item9[1] << "   " << item9[2] << "   " << item9[3] << "        " << item9[0] + item9[1] + item9[2] + item9[3] << "       " << (item9[0] + item9[1] + item9[2] + item9[3]) / 4 << endl;
+	cout << "Chargers:     ";
+	cout << item10[0] << "    " << item10[1] << "   " << item10[2] << "    " << item10[3] << "        " << item10[0] + item10[1] + item10[2] + item10[3] << "         " << (item10[0] + item10[1] + item10[2] + item10[3]) / 4 <<"\n"<< endl;
+	cout << "1st QT highest profit: " <<"Mouses: "<<item5[0]<< endl;
+	cout << "2nd QT highest profit: " << "Watches: " << item1[1] << endl;
+	cout << "3rd QT highest profit: " << "USBs: " << item3[2] << endl;
+	cout << "4th QT highest profit: " << "Monitors: " << item6[3] << endl;
+	system("pause");
+	return 0;
+}
